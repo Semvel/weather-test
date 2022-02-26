@@ -64,6 +64,7 @@
     <main v-else-if="city === 0" class="no-city">
         <h2 class="no-city__title">Город не найден, проверьте правильность ввода</h2>        
     </main>
+
     <main v-else-if="load" class="loader">
         <Load />
     </main>
