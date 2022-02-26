@@ -477,10 +477,20 @@ export default {
             padding-bottom: 0;
         }
         header {
-            margin-bottom: 50px;
+            margin-bottom: 30px;
+        }
+        .weather__selected-city {
+            font-size: 1.5em;
+        }
+        .weather__selected {
+            margin-bottom: 30px;
         }
         .weather__selected .right-column {
             gap: 30px 50px;
+            margin-top: 20px;
+        }
+        .weather__selected .left-column {
+            margin-right: 0;
         }
         .weather__future {
             padding: 15px;
